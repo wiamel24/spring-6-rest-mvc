@@ -11,6 +11,6 @@ import lombok.Data;
 public class Beer {
 
 	private UUID id;
-	private String beerName;
+	private String beerNamee;
 	private int price;
 }
