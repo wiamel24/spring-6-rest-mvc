@@ -12,5 +12,7 @@ public class Beer {
 
 	private UUID id;
 	private String beerName;
+
 	private int priceMain;
+
 }
