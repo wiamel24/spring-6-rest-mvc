@@ -32,7 +32,7 @@ public class BeerController {
 	}
 	
 	public Beer getBeerById(UUID id) {
-		log.debug("get beer by id - in controller test");
+		log.debug("get beer by id - in controller test test");
 		
 		return beerService.getBeerById(id);
 	}
