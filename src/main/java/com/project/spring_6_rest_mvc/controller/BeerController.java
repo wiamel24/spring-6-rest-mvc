@@ -33,6 +33,7 @@ public class BeerController {
 	
 	public Beer getBeerById(UUID id) {
 		log.debug("get beer by id - in controller");
+		
 		return beerService.getBeerById(id);
 	}
 	
